@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>RapidFTR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="styles/popup1.css" type="text/css" />
+<!-- Featured Slider Elements -->
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-s3slider.js"></script>
+<script type="text/javascript" src="scripts/jquery-s3slider.setup.js"></script>
+<!-- End Featured Slider Elements -->
+<script language=JavaScript> 
+var message="Function Disabled!";
+ function clickIE4(){ 
+  if (event.button==2){
+   alert(message);
+    return false;
+     }
+      }
+  function clickNS4(e){
+   if (document.layers||document.getElementById&&!document.all){
+    if (e.which==2||e.which==3){
+     alert(message); return false;
+      }
+      }
+      }
+      if (document.layers){
+       document.captureEvents(Event.MOUSEDOWN);
+        document.onmousedown=clickNS4;
+         }
+      else if (document.all&&!document.getElementById){
+       document.onmousedown=clickIE4;
+        }
+      document.oncontextmenu=new Function("alert(message);return false")
+   </script>
+</head>
+
+<body id="top">
+<div class="wrapper row1">
+  <div id="topnav">
+    <ul>
+      <li><a href="main_page.php"><strong>&nbsp; &nbsp; Home</strong></a></li>
+      <li><a href="courses.php"><strong>&nbsp; &nbsp; Whom do we work for?</strong></a></li>
+      <li><a href="forum.php"><strong>&nbsp; &nbsp; Who we are?</strong></a></li>
+      <li><a href="contactus.php"><strong>&nbsp; &nbsp; Contact Us</strong></a></li>
+      <li><a href="help.php"><strong>&nbsp; &nbsp; Help</strong></a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="wrapper row2">
+  <div id="header" class="clear">
+    <div class="fl_left1">
+      <h1 style="font-size:100px;"><a href="index.php">Rapid FTR</a></h1>
+      <p style="font-size:30px;text-align:right;">Reuniting Families all over the world</p>
+    </div>  
+  </div>
+</div>
+</body>
+</html>

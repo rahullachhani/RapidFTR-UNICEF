@@ -1,0 +1,72 @@
+#news_scroller_wrapper
+{
+	overflow:hidden;
+	max-width:500px;
+	width:auto;
+	margin: 0 auto;
+	border: solid 1px #E1E1E1;
+	background-color: #FFF;
+	box-shadow: 0 0 15px #cbcbcb;
+	-moz-box-shadow: 0 0 15px #cbcbcb;
+	-webkit-box-shadow: 0 0 15px #cbcbcb;
+	-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;
+	padding:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	text-align:left;
+	position: relative;
+}
+
+
+
+.news_scroller_header
+{
+	font: bold 12px Verdana;
+	color: black;
+	background: #C0C0C0 url(../images/vpb_icon.png) no-repeat 8px 6px;
+	text-transform: none;
+	padding: 7px 0 7px 31px;
+}
+
+
+.news_scroller ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.news_scroller ul li
+{
+	padding-bottom: 2px; 
+	border:1px solid #E5E5E5; 
+	border-bottom: 2px solid #FFF;
+	border-left:0px solid #FFF;
+	border-right:0px solid #FFF;
+	
+}
+
+.news_scroller ul li a
+{
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:12px; 
+	font-weight:normal;
+	color: black;
+	background: #F9F9F9;
+	display: block;
+	padding: 10px 0;
+	line-height: 21px;
+	padding-left: 8px;
+	text-decoration: none;
+}
+
+.news_scroller ul li a:hover
+{
+	color: blue;
+	background: #FFF;
+}
+
+
+
+/*Error Message Style*/
+.info { border: 1px solid #999; padding:12px 20px 12px 20px; font: bold 12px verdana;-moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;text-shadow: 2px 2px 2px #ccc;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;font-family:Verdana, Geneva, sans-serif; font-size:11px; line-height:20px;font-weight:normal;color: black;background: #BDE5F8;}

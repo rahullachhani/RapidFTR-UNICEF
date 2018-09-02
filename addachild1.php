@@ -1,0 +1,1 @@
+<?php header('addachild.php'); ?>
